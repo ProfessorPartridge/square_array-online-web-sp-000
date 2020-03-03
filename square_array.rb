@@ -3,5 +3,8 @@ def square_array(array)
     squared_valued = index ** 2
     new_array = []
     new_array.last(squared_valued)
+    puts new_array
   end
 end
+
+puts square_array
