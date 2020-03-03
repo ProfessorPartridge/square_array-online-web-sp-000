@@ -4,5 +4,5 @@ def square_array(array)
     squared_valued = index ** 2
     new_array.unshift(squared_valued).reverse
   end
-  new_array
+  new_array.reverse
 end
